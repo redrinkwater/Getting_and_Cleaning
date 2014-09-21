@@ -1,0 +1,52 @@
+#run_analysis.R Codebook
+==================================================================
+
+Data were loaded from the following file: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+
+This contains information on the raw data and how it has been transformed by the researchers (features_info.txt).
+
+run_analysis.R takes these original files and produces a new dataframe run_analysis.txt, the variables in this codebook refer to this output file.
+
+Subject - an integer indicating the individual who performed the series if tests
+Activity.Name - Laying, Stitting, Standing, Walking, Walking_Downstairs, Walking_Upstairs refers to the 6 different activities the subject was asked to perform. These descriptive names were translated from the numerical codes 1-6 provided in the raw data (ytrain.txt and ytest.txt)
+
+The mean of the values for each variable for mean and standard deviation taken from the raw data (XTrain and XTest):
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc.mean-XYZ
+tBodyAcc.std-XYZ
+tGravityAcc.mean-XYZ
+tGravityAcc.std-XYZ
+tBodyAccJerk.mean-XYZ
+tBodyAccJerk.std-XYZ
+tBodyGyro.mean-XYZ
+tBodyGyro.std-XYZ
+tBodyGyroJerk.mean-XYZ
+tBodyGyroJerk.std-XYZ
+tBodyAccMag.mean
+tBodyAccMag.std
+tGravityAccMag.mean
+tGravityAccMag.std
+tBodyAccJerkMag.mean
+tBodyAccJerkMag.std
+tBodyGyroMag.mean
+tBodyGyroMag.std
+tBodyGyroJerkMag.mean
+tBodyGyroJerkMag.std
+fBodyAcc.mean-XYZ
+fBodyAcc.std-XYZ
+fBodyAccJerk.mean-XYZ
+fBodyAccJerk.std-XYZ
+fBodyGyro.mean-XYZ
+fBodyGyro.std-XYZ
+fBodyAccMag.mean
+fBodyAccMag.std
+fBodyAccJerkMag.mean
+fBodyAccJerkMag.std
+fBodyGyroMag.mean
+fBodyGyroMag.std
+fBodyGyroJerkMag.mean
+fBodyGyroJerkMag.std
+
+
+
